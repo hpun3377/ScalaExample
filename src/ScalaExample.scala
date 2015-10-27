@@ -15,5 +15,8 @@ object ScalaExample {
     var myVar : String = "Foo"
     val myVal : String = "Foo"
 
+    //val (myVal1: Int, myVar2: String) = Pair(40, "Foo")
+    val (myVar1, myVar2) = Pair(40, "Foo")
+
   }
 }
